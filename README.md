@@ -1,35 +1,34 @@
-````markdown
 # Selenium PIN Tester
 
 A simple Python project using **Selenium** to automate a local login page and test 4-digit PIN combinations.
 
 ## Features
 
-- Automates a browser using Selenium
-- Tests 4-digit PIN combinations
-- Clears the input field between attempts
-- Detects when the correct PIN is found
-- Stops automatically when successful
-- Uses a local HTML page for safe testing
+* Automates a browser using Selenium
+* Tests 4-digit PIN combinations
+* Clears the input field between attempts
+* Detects when the correct PIN is found
+* Stops automatically when successful
+* Uses a local HTML page for safe testing
 
 ## Technologies Used
 
-- Python
-- Selenium
-- HTML
-- JavaScript
+* Python
+* Selenium
+* HTML
+* JavaScript
 
 ## How It Works
 
 The Python script loops through PIN combinations:
 
 ```text
+0000
 0001
 0002
-0003
 ...
-0427
-````
+9999
+```
 
 Selenium enters each PIN into the local login page and checks whether the PIN is correct.
 
@@ -74,11 +73,6 @@ This project helped me practise:
 
 ## Disclaimer
 
-This project was created for educational purposes and local testing only.
+This project was created for **educational purposes and local testing only**.
 
 Only use automated login testing on systems that you own or have permission to test.
-
-```
-
-Save that as **`README.md`** in the same GitHub repository as your `main.py` and `login.html`.
-```
